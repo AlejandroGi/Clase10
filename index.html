@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>AG - Tu unico diario digital</title>
+
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        
+    </head>
+
+
+    <body>
+       
+
+        <!-------------------------Header------------------------->
+        <header id="header" class="fixed-top">
+            <section class="flex-container">
+
+                <section class="flex-container-left">
+
+                    <button class="btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                    <div class="logo">
+                        <img src="imgs/logo.png">
+                    </div>
+
+                </section>
+
+
+                <section class="flex-container-mid">
+
+                    <div class="logo">
+                        <img src="imgs/logo.png">
+                    </div>
+                    
+                    <div class="logo-mobile">
+                        <img src="imgs/logo-mobile.png">
+                    </div>
+
+                </section>
+
+                <section class="flex-container-right">
+
+                    <button id="btnSub" class="btnSub">
+                        <i class="fa fa-plus-square-o"></i>
+                    </button>
+                    <!------------------------------------------------------------------------>
+                    
+                    <button class="btn">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <nav class="navbar" >
+                        <ul>
+
+                            <li class="dropdown"><a href="#"><span>Secciones</span> </a>
+                                <ul>
+                                <li><a href="index-2.html">Policiales</a></li>
+                                <li><a href="index-3.html">Deportes</a></li>
+                                <li><a href="index-4.html">Politica</a></li>
+                                <li><a href="index-4.html">Tecno</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link scrollto" href="index.html#about">Ultimo Momento</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#services">Ciudad</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#portfolio">Region</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#team">Mundo</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+            </section>
+        </header>
+
+
+        <!-------------------------Index------------------------->
+       <section id="index">
+
+            <section class="flex-container">
+                <div class="date">
+                    <span>Miercoles, 17 de Mayo</span>
+                </div>
+
+                <div class="weather">
+                    <i class="fa fa-moon-o"></i>
+                    <span>14.7°, Rosario</span>
+                </div>
+            </section>
+            
+        </section>
+
+
+        <!-------------------------Form------------------------->
+
+        <section id="form">
+            
+            <section id="flexContainerForm" class="flex-container-form">
+              
+                <button id="btnClose" class="btnClose">
+                    <i class="fa fa-times"></i>
+                </button>
+
+                <h1 id="title" class="title">¡Suscribite!</h1>
+                <h1 id="subTitle" class="subTitle">Hola</h1>
+               
+                <form id="inputsForm" action="" class="form">
+
+                    <input type="text" name="nameSurname" id="nameSurname" placeholder="Nombre y Apellido" required />
+                    <div id="error-nameSurname" class="error"></div>
+
+                    <input type="text" name="email" id="email" placeholder="Email" required />
+                    <div id="error-email" class="error"></div>
+
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required />
+                    <div id="error-password" class="error"></div>
+
+                    <input type="text" name="age" id="age" placeholder="Edad" required />
+                    <div id="error-age" class="error"></div>
+
+                    <input type="text" name="cellPhoneNumber" id="cellPhoneNumber" placeholder="Numero de telefono" required />
+                    <div id="error-cellPhoneNumber" class="error"></div>
+
+                    <input type="text" name="address" id="address" placeholder="Direccion" required />
+                    <div id="error-address" class="error"></div>
+
+                    <input type="text" name="city" id="city" placeholder="Ciudad" required />
+                    <div id="error-city" class="error"></div>
+
+                    <input type="text" name="postalCode" id="postalCode" placeholder="Codigo postal" required />
+                    <div id="error-postalCode" class="error"></div>
+
+                    <input type="text" passportCard="passportCard" id="passportCard" placeholder="DNI" required />
+                    <div id="error-passportCard" class="error"></div>
+                </form>
+
+                <div id="btnSend" class="btnSend"><button type="submit">Enviar</button></div>
+
+            </section>
+
+        </section>        
+
+
+        <!-------------------------News------------------------->
+        <section id="news">
+            
+            <section class="flex-news-column-left"> 
+                <img src="imgs/banner.jpg">
+            </section>
+
+            <section class="flex-news-column-mid">
+
+                <div>
+                    <span>#LasMasLeidas</span>
+                </div>
+
+                <article>
+                    <img src="imgs/news-photo1.jpg">
+                    
+                    <div class="news-topics">
+                        <ul>
+                            <li><a href="#">ChatGPT</a></li>
+                            <li><a href="#">Seguridad Informatica</a></li>
+                            <li><a href="#">Inteligencia Artificial</a></li>
+                            <li><a href="#">Caja Negra</a></li>
+                        </ul>
+                    </div>
+
+                    <h2>
+                        Elon Musk dejó de ser el CEO de Twitter y designó a una experta en
+                        publicidad
+                    </h2>
+                    <p>
+                        Linda Yaccarino, que durante muchos años se desempeñó como jefa de
+                        publicidad de NBC Universal, asumirá como directora ejecutiva de
+                        la red social
+                    </p>
+
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+
+                <article>
+                    <img src="imgs/news-photo2.jpg">
+
+                    <div class="news-topics">
+                        <ul>
+                            <li><a href="#">WhatsApp</a></li>
+                            <li><a href="#">Argentina</a></li>
+                            <li><a href="#">Reportes</a></li>
+                            <li><a href="#">Downdetector</a></li>
+                        </ul>
+                    </div>
+
+                    <h2>
+                        Se cayó WhatsApp Web: los motivos y las quejas de los usuarios
+                    </h2>
+
+                    <p class="img-subtitle">
+                        Poco después de las 19, comenzaron a registrarse problemas para ingresar a la versión web de la aplicación
+                    </p>
+
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+                
+
+
+                <article>
+                    <img src="imgs/news-photo3.jpg">
+
+                    <div class="news-topics">
+                        <ul>
+                            <li><a href="#">Seguridad Informatica</a></li>
+                            <li><a href="#">Phishing</a></li>
+                            <li><a href="#">Correo Electronico</a></li>
+                            <li><a href="#">Fraude</a></li>
+                        </ul>
+                    </div>
+
+                    <h2>
+                        Ojo: falso mail de tarjeta de crédito busca robar información
+                    </h2>
+
+                    <p class="img-subtitle">
+                        El nuevo caso de phishing circula por correo electrónico 
+                        y simula provenir de una famosa marca. Redirige a un sitio perfectamente imitado donde se invita al usuario a colocar sus datos para ingresar
+                    </p>
+
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+            
+                <article>
+                    <img src="imgs/news-photo4.jpg">
+
+                    <div class="news-topics">
+                        <ul>
+                            <li><a href="#">Netflix</a></li>
+                            <li><a href="#">Suscripcion</a></li>
+                            <li><a href="#">Argentina</a></li>
+                            <li><a href="#">Pago</a></li>
+                        </ul>
+                    </div>
+
+                    <h2>
+                        Netflix eliminó el período de prueba gratuito en Argentina y otros países
+                    </h2>
+
+                    <p class="img-subtitle">
+                        La plataforma no permite que los nuevos usuarios prueben el sistema sin pagar la suscripción 
+                    </p>
+
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+
+            </section>
+
+            <section class="flex-news-column-right"> 
+                <img src="imgs/banner.jpg">
+            </section>
+
+        </section>
+
+
+        <footer id="footer">
+            <section class="flex-footer-colum-left">
+
+                <div class="logo-mobile">
+                    <img src="imgs/logo-mobile.png">
+                </div>
+                
+                <article class="social-icons">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook-square" title ></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter-square" ></i></a>
+                        </li>
+                        <li>
+                            <a href="#">  <i class="fa fa-instagram" ></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-youtube-square" ></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin-square" ></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-pinterest-p" ></i></a>
+                        </li>
+                    </ul>
+                </article>
+
+            </section>
+
+            <section class="flex-footer-colum-mid">
+
+                <div>
+                    <h3>Secciones</h3>
+                    <ul>
+                        <li><a href="#">Policiales</a></li>
+                        <li><a href="#">Deportes</a></li>
+                        <li><a href="#">Politica</a></li>
+                        <li><a href="#">Tecno</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Topicos</h3>
+                    <ul>
+                        <li><a href="#">ChatGPT</a></li>
+                        <li><a href="#">Seguridad Informatica</a></li>
+                        <li><a href="#">Inteligencia Artificial</a></li>
+                        <li><a href="#">Caja Negra</a></li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="flex-footer-colum-right">
+                
+                <h3>¡Busque noticias en la zona!</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22523.530205720188!2d-60.66720864479908!3d-32.947239122692785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab435f0d6aa1%3A0xe8b9ed20e2e8cb77!2sUniversidad%20Abierta%20Interamericana!5e0!3m2!1ses!2sar!4v1684102535697!5m2!1ses!2sar" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div>
+                    <button>BUSCAR NOTICIAS</button>
+                </div>
+
+            </section>
+
+        </footer>
+
+        <script src="dom.js"></script>
+
+    </body>
+</html>
+
